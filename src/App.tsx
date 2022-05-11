@@ -55,8 +55,8 @@ export function App() {
     <div style={{ display: 'flex', flexDirection: 'row' }}>
       <SideBar 
         genres={genres}
-        selectedGenre={selectedGenre}
-        setSelectedGenre={setSelectedGenre}
+        selectedGenreId={selectedGenreId}
+        setSelectedGenreId={setSelectedGenreId}
       />
       <Content 
         movies={movies}
